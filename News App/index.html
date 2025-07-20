@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India News Explorer by ARNAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📰 India News Explorer</h1>
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search for news...">
+            <button id="searchBtn">Search</button>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+        </div>
+        <nav class="categories">
+            <button class="category-btn active" data-category="">All</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="technology">Technology</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+        </nav>
+    </header>
+    <main id="news-container"></main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
